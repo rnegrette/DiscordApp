@@ -1,5 +1,6 @@
 #! /usr/bin/python
 
+import os
 import discord
 from discord.ext import commands
 
@@ -32,4 +33,5 @@ async def cat(ctx):
 async def pookie(ctx):
     await ctx.send("Fuck you, Pookie.")
 
-bot.run('NDE2MzAzMjEwOTAzMzcxODA4.DXCmsw.dcBMpsjlyNnoFr_tolRsx_bmPOU')
+port = int(os.environ.get("PORT", 5000))
+bot.run('NDE2MzAzMjEwOTAzMzcxODA4.DXCmsw.dcBMpsjlyNnoFr_tolRsx_bmPOU', debug=True, host='0.0.0.0', port=port)
