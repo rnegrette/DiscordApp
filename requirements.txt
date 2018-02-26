@@ -1,1 +1,2 @@
--e git+https://github.com/Rapptz/discord.py.git#egg=discord
+discord.py.egg==info
+discord==0.0.2
