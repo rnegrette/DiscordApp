@@ -30,6 +30,6 @@ async def cat(ctx):
 
 @bot.command()
 async def pookie(ctx):
-    await ctx.sent("Fuck you, Pookie.")
+    await ctx.send("Fuck you, Pookie.")
 
 bot.run('NDE2MzAzMjEwOTAzMzcxODA4.DXCmsw.dcBMpsjlyNnoFr_tolRsx_bmPOU')
